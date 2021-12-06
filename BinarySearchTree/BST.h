@@ -269,10 +269,10 @@ void BinarySearchTree::remove(int data)
 }
 
 void BinarySearchTree::preOrder() {
-	bftTravers(root);
+	dftTravers(root);
 }
 
 void BinarySearchTree::width() {
-	dftTravers(root);
+	bftTravers(root);
 }
 
